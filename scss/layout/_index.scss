@@ -1,0 +1,70 @@
+/* home*/
+
+
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+   
+  }
+  
+  .contenedor_grid{
+      
+      display: grid;
+      grid-template-columns: repeat(2, 3fr);
+      
+  
+   }
+  
+  .contenedor_grid2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:15rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+   
+  }
+
+  
+.summersale{
+    
+    max-height: 550px;
+    padding-left: 0px ;
+    padding-top: 100px;
+    padding-right: 0px;}
+  
+  
+  
+  
+  
+  h1{
+    display: grid;
+  }
+  
+  
+  h2 { 
+      color:black;
+      text-align: center;
+    padding: 5px;}
+  
+  
+  h3 {
+      color: black;
+      text-align: center;
+  }
+  h6{
+    color: red;
+    text-align: center;
+  }
+ 
+  .textomain{
+
+
+  
+    color: black(0, 0, 0);
+text-align:left;
+font-size: 150px;
+padding-top: 100px;
+padding-left: 50px;
+padding-right: 200px;  }

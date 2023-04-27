@@ -1,0 +1,61 @@
+
+
+.logoindex{
+
+    max-width: 180px;
+    max-height: 110px;
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+  
+  .navbarimg {
+    max-width: 300px;
+    max-height: 30px;
+  
+    padding-left: 10px  ;
+    padding-right: 10px;
+    box-sizing: border-box;
+    margin-right: 100px;
+  }
+  
+  
+  .nav { display: flex;
+    height: 75px;
+    width: 100%;
+    background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+  }
+  
+  
+  .ul-nav {
+  display: flex;
+  justify-content: space-between;
+  list-style-type:none;
+  text-align: center;
+  margin-right: 20px;
+  padding-top: 60px ;
+  min-width: 480px;
+  }
+  
+  
+  .ul-nav li {
+    
+  border-radius: 3px;
+  margin: 0 5px;
+  
+  
+  }
+  
+  .ul-nav li a{
+    padding-top: 200px;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: black;
+    
+  }

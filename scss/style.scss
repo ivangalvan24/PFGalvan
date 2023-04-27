@@ -1,0 +1,18 @@
+//base
+
+@import 'base/reset';
+
+
+//components
+@import 'components/navbar';
+@import 'components/footer';
+
+
+//layout
+
+@import 'layout/index';
+@import 'layout/hombre';
+@import 'layout/mujeres';
+@import 'layout/niños';
+@import 'layout/calzados';
+@import 'layout/mediaqueries'; 
