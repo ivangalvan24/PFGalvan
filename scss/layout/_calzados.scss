@@ -1,77 +1,40 @@
-/* calzados*/
- 
-.header{
-    display: flex;
-    justify-content:center;
-    height: 70px;
-    background-color: white;
-    align-items: center;
-    padding: 10px;
-    min-width: 480px;
-  
-  }
-  .logo1{
-  justify-items: left;
-  box-sizing: content-box;
-  
-  }
-  
-  .logo{
-    display: flex;
-    align-items: center;
-   padding-right: 100px;
-  }
-  
-  .logo img{
-    height: 50px;
-    margin-right: 10px;
-    padding-right: 100px;
-    justify-content: left ;
-    display: flex;
-  }
-  
-  a{
-    text-decoration: none;
-    color: black;
-  }
-  
-  .conteinercalzados{
-    width: 75vw;
-    max-width: 1000px ;
-    min-width: 480px;
-    margin: auto;
-  }
-  
-  .conteinercalzados img{
-    width: 100%;
-  }
-  
-  .vanscalzados{
-    text-align: center;
-    padding-top: 100px;
-  }
-  
-  .footerlogoscalzados{
-   
-    width:150px;
-    min-width:20px;
-    margin: auto;
-    display: flex;
-    padding-right: 100px;
-  }
-  .footerlogoscalzados img{
-    width: 100%;
-  }
-  
-.zapatillas{
 
-    width: 85%;
-    max-height: 850px;
-    padding-top: 100px;
-    padding-bottom: 0px;
-    padding-left: 190px;
-    justify-content: center;
-  }
+.vanscalzados{
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin: 30px;
+  font-size: 30px;
+}
+
+
+.containercalzados{
+ width: 100%;
+ background-color:  rgb(247, 247, 247);
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+
+
+
+.cajacalzados img {
+   width: 350px;
+   height: 350px;
+   border-radius: 30px ;
   
-  
+   
+
+}
+
+.cajacalzados {
+  margin: 15px;
+}
+
+.cajacalzados p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
   

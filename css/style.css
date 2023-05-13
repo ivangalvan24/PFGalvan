@@ -9,137 +9,184 @@
   overflow-x: hidden;
 }
 
-.logoindex {
-  max-width: 180px;
-  max-height: 110px;
-  padding-left: 50px;
-  padding-top: 50px;
-}
-
-.navbarimg {
-  max-width: 300px;
-  max-height: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
-  box-sizing: border-box;
-  margin-right: 100px;
-}
-
-.nav {
+.header {
+  background-color: rgb(247, 247, 247);
   display: flex;
-  height: 75px;
-  width: 100%;
-  background-color: white;
   justify-content: space-between;
   align-items: center;
-}
-
-.ul-nav {
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-  text-align: center;
-  margin-right: 20px;
-  padding-top: 60px;
-  min-width: 480px;
-}
-
-.ul-nav li {
-  border-radius: 3px;
-  margin: 0 5px;
-}
-
-.ul-nav li a {
-  padding-top: 200px;
-  padding: 25px;
-  text-decoration: none;
-  font-size: 18px;
-  display: block;
-  text-transform: uppercase;
-  color: black;
-}
-
-/* footer*/
-.footerlogos {
-  display: flex;
-  justify-content: space-between;
+  padding: 50px;
+  font-style: italic;
+  min-height: 70px;
   width: 100%;
-  height: 100px;
-  padding-right: 250px;
-  padding-left: 250px;
 }
 
-.contactanos {
+.header .logo {
+  cursor: pointer;
+}
+
+.header .logo img {
+  height: 70px;
+  width: auto;
+  transition: all 0.3s;
+}
+
+.header .logo img:hover {
+  transform: scale(1.2);
+}
+
+.header .nav-links {
+  list-style: none;
+  justify-content: center;
+}
+
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.header .nav-links li:hover {
+  transform: scale(1.1);
+}
+
+.header .nav-links a {
+  font-size: 700;
   color: black;
-  text-align: center;
-  padding-bottom: 50px;
-  padding-top: 150px;
+  text-decoration: none;
+}
+
+.header .nav-links li a:hover {
+  color: grey;
+}
+
+.footer {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 2rem 8%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.redessocialesfooter, .ul-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.redsocial {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  border: 1px solid #f2f2f2;
+  background-image: url(../multimedia/img/fa.png);
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  margin: 1rem;
+}
+
+.redsocial:nth-of-type(2) {
+  background-image: url(../multimedia/img/twitter.png);
+}
+
+.redsocial:nth-of-type(3) {
+  background-image: url(../multimedia/img/instagram.png);
+}
+
+.redsocial:nth-of-type(4) {
+  background-image: url(../multimedia/img/whatsaapvans.png);
+}
+
+.redsocial:hover {
+  background-color: #121212;
+  filter: invert(1);
 }
 
 .ul-footer {
   list-style-type: none;
-  text-decoration: none;
-  display: flex;
-  color: black;
-  text-align: center;
-  justify-content: space-between;
-  width: 100%;
-  padding-left: 25%;
-  padding-right: 25%;
-  padding-top: 40px;
+  color: #f2f2f2;
+  font-size: 18px;
 }
 
-.footerlogoscalzados {
-  width: 150px;
-  min-width: 20px;
-  margin: auto;
-  display: flex;
-  padding-right: 100px;
+.footer-item {
+  margin: 1rem 1.5rem;
+  cursor: pointer;
+  opacity: 0.6;
 }
 
-.footerlogoscalzados img {
-  width: 100%;
+.footer-item:hover {
+  opacity: 1;
 }
 
 /* home*/
-.contenedor {
-  max-width: 120rem;
-  margin: 0 auto;
-}
-
-.contenedor_grid {
-  display: grid;
-  grid-template-columns: repeat(2, 3fr);
-}
-
-.contenedor_grid2 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15rem;
-  justify-content: center;
+.cajahome {
+  max-width: 400;
+  display: flex;
   align-items: center;
-  padding-left: 10px;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.summersale {
-  max-height: 550px;
-  padding-left: 0px;
-  padding-top: 100px;
-  padding-right: 0px;
+.textomain {
+  display: flex;
+  height: 500px;
+  width: 400px;
+  font-size: 100px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.containerindex {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 150px;
+  padding-bottom: 200px;
+  background-image: url(../multimedia/img/background.jpg);
+}
+
+.cajaindex img {
+  width: 350px;
+  height: 500px;
+  border-radius: 0px;
+  justify-content: space-between;
+}
+
+.cajaindex img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.cajaindex {
+  margin: 50px;
+}
+
+.cajaindex p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 h1 {
   display: grid;
+  color: red;
 }
 
 h2 {
-  color: black;
+  color: rgb(48, 4, 4);
   text-align: center;
   padding: 5px;
 }
 
 h3 {
-  color: black;
+  color: rgb(59, 12, 12);
   text-align: center;
 }
 
@@ -148,268 +195,139 @@ h6 {
   text-align: center;
 }
 
-.textomain {
-  color: black(0, 0, 0);
-  text-align: left;
-  font-size: 150px;
-  padding-top: 100px;
-  padding-left: 50px;
-  padding-right: 200px;
-}
-
-.imagen-1 {
-  width: 350px;
-  height: 550px;
-  padding-left: 20px;
-  padding-top: 50px;
-}
-
-.imagen-2 {
-  width: 350px;
-  height: 550px;
-  padding-left: 20px;
-  padding-top: 50px;
-}
-
-.imagen-3 {
-  width: 350px;
-  height: 550px;
-  padding-left: 20px;
-  padding-top: 50px;
-}
-
-/* vans hombre*/
-.banner2 {
-  padding-top: 150px;
-  width: 100%;
-}
-
 .vanshombre {
-  text-align: center;
-}
-
-.imagen_1hombres {
-  min-width: 480px;
-  width: 300px;
-  height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
-}
-
-.imagen_2hombres {
-  min-width: 480px;
-  width: 300px;
-  height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
-}
-
-.imagen_3hombres {
-  min-width: 480px;
-  width: 300px;
-  height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
-}
-
-.imagen_4hombres {
-  min-width: 480px;
-  width: 300px;
-  height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
-}
-
-.imagen_5hombres {
-  min-width: 480px;
-  width: 300px;
-  height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
-}
-
-/* mujeres*/
-.header {
-  display: flex;
-  justify-content: center;
-  height: 70px;
-  background-color: white;
-  align-items: center;
-  padding: 10px;
-  min-width: 480px;
-}
-
-.logo1 {
-  justify-items: left;
-  box-sizing: content-box;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  padding-right: 100px;
-}
-
-.logo img {
-  height: 50px;
-  margin-right: 10px;
-  padding-right: 100px;
-  justify-content: left;
-  display: flex;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-.conteinermujer {
-  width: 75vw;
-  max-width: 1000px;
-  min-width: 480px;
-  margin: auto;
-}
-
-.conteinermujer img {
   width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin: 30px;
+  font-size: 30px;
+}
+
+.containerhombre {
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cajahombre img {
+  width: 350px;
+  height: 350px;
+  border-radius: 30px;
+}
+
+.cajahombre {
+  margin: 15px;
+}
+
+.cajahombre p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .vansmujer {
+  width: 100%;
   text-align: center;
-  padding-top: 100px;
+  font-weight: bold;
+  margin: 30px;
+  font-size: 30px;
 }
 
-/* vans niño*/
+.containermujer {
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cajamujer img {
+  width: 350px;
+  height: 350px;
+  border-radius: 30px;
+}
+
+.cajamujer {
+  margin: 15px;
+}
+
+.cajamujer p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .banner {
   display: flex;
   padding-top: 100px;
   width: 100%;
-  min-width: 480px;
+  min-width: 350px;
 }
 
-.vans-niño {
-  text-align: center;
-  padding-top: 25px;
-}
-
-.header {
-  display: flex;
-  min-width: 480px;
-}
-
-.imagen_1niños {
-  min-width: 480px;
-  flex: 1;
-  width: 300px;
-  height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
-}
-
-.imagen_2niños {
-  flex: 2;
-  min-width: 480px;
-  padding-left: 30px;
-  width: 300px;
-  height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
-}
-
-.imagen_3niños {
-  min-width: 480px;
-  width: 300px;
-  height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
-}
-
-.imagen_4niños {
-  min-width: 480px;
-  width: 300px;
-  height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
-}
-
-.imagen_5niños {
-  min-width: 480px;
-  width: 300px;
-  height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
-}
-
-/* calzados*/
-.header {
-  display: flex;
-  justify-content: center;
-  height: 70px;
-  background-color: white;
-  align-items: center;
-  padding: 10px;
-  min-width: 480px;
-}
-
-.logo1 {
-  justify-items: left;
-  box-sizing: content-box;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  padding-right: 100px;
-}
-
-.logo img {
-  height: 50px;
-  margin-right: 10px;
-  padding-right: 100px;
-  justify-content: left;
-  display: flex;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-.conteinercalzados {
-  width: 75vw;
-  max-width: 1000px;
-  min-width: 480px;
-  margin: auto;
-}
-
-.conteinercalzados img {
+.vansniños {
   width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin: 30px;
+  font-size: 30px;
+}
+
+.containerniño {
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cajaniño img {
+  width: 350px;
+  height: 350px;
+  border-radius: 30px;
+}
+
+.cajaniño {
+  margin: 15px;
+}
+
+.cajaniño p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .vanscalzados {
-  text-align: center;
-  padding-top: 100px;
-}
-
-.footerlogoscalzados {
-  width: 150px;
-  min-width: 20px;
-  margin: auto;
-  display: flex;
-  padding-right: 100px;
-}
-
-.footerlogoscalzados img {
   width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin: 30px;
+  font-size: 30px;
 }
 
-.zapatillas {
-  width: 85%;
-  max-height: 850px;
-  padding-top: 100px;
-  padding-bottom: 0px;
-  padding-left: 190px;
+.containercalzados {
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+}
+
+.cajacalzados img {
+  width: 350px;
+  height: 350px;
+  border-radius: 30px;
+}
+
+.cajacalzados {
+  margin: 15px;
+}
+
+.cajacalzados p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

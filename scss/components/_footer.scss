@@ -1,48 +1,81 @@
-/* footer*/
-
-.footerlogos{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 100px;
-    padding-right : 250px;
-    padding-left: 250px;
-    
-   
-  
-  }
-  
-  .contactanos
-  {
-      color: black;
-      text-align: center;
-      padding-bottom: 50px;
-      padding-top: 150px;
-  } 
-  
-  
-  .ul-footer{
-    list-style-type: none;
-    text-decoration: none;
-  display: flex;
-  color: black;
-  text-align: center;
-  justify-content: space-between;
+.footer{
   width: 100%;
-  padding-left: 25%;
-  padding-right: 25%;
-  padding-top: 40px;
-  }
-  
 
-  .footerlogoscalzados{
- 
-    width:150px;
-    min-width:20px;
-    margin: auto;
-    display: flex;
-    padding-right: 100px;
-  }
-  .footerlogoscalzados img{
-    width: 100%;
-  }
+  bottom: 0;
+  left: 0;
+  padding: 2rem 8%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.redessocialesfooter, .ul-footer{
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+margin-bottom: 1rem;
+
+}
+
+.redsocial{
+
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  border: 1px solid #f2f2f2;
+  background-image: url(../multimedia/img/fa.png);
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  margin: 1rem;
+
+}
+
+
+.redsocial:nth-of-type(2){
+  background-image:url(../multimedia/img/twitter.png) ;
+
+}
+
+.redsocial:nth-of-type(3){
+  background-image:url(../multimedia/img/instagram.png) ;
+
+}
+
+.redsocial:nth-of-type(4){
+  background-image: url(../multimedia/img/whatsaapvans.png) ;
+
+}
+
+
+.redsocial:hover{
+background-color: #121212;
+filter: invert(1);
+
+}
+
+
+
+
+.ul-footer{
+  list-style-type: none;
+  color: #f2f2f2;
+  font-size: 18px;
+
+
+}
+
+.footer-item{
+  margin: 1rem 1.5rem;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.footer-item:hover{
+
+  opacity: 1;
+}

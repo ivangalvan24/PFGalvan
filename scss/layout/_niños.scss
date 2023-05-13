@@ -1,56 +1,45 @@
-/* vans niño*/
+
 .banner{ display: flex;
     padding-top: 100px;
   width: 100%;
-  min-width: 480px;
+  min-width: 350px;
   }
   
-  .vans-niño{
+  .vansniños {
+    width: 100%;
     text-align: center;
-    padding-top: 25px;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 30px;
   }
   
-  .header{
-    display: flex;
-    min-width: 480px;
+  
+  .containerniño{
+   width: 100%;
+   background-color:  rgb(247, 247, 247);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
   }
   
-  .imagen_1niños{
-    min-width: 480px;
-    flex: 1;
-    width: 300px; 
-  height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
-  }
-  .imagen_2niños{
-    flex: 2;
-    min-width: 480px;
-    padding-left: 30px;
-    width: 300px; 
-    height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
-  }
-  .imagen_3niños{
-    min-width: 480px;
-    width: 300px; 
-  height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
-  }
-  .imagen_4niños{
-    min-width: 480px;
-    width: 300px; 
-  height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
-  }
-  .imagen_5niños{
-    min-width: 480px;
-    width: 300px; 
-  height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
+  
+  
+  
+  .cajaniño img {
+     width: 350px;
+     height: 350px;
+     border-radius: 30px ;
+    
+     
+  
   }
   
+  .cajaniño {
+    margin: 15px;
+  }
+  
+  .cajaniño p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }

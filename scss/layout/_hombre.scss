@@ -1,67 +1,39 @@
-.imagen-1{
 
-    width: 350px; 
-    height: 550px;
-    padding-left: 20px;
-    padding-top: 50px;
-    }
-    .imagen-2{
-      width: 350px; 
-      height: 550px;
-      padding-left: 20px;
-      padding-top: 50px;
-      }
-    
-    .imagen-3{
-      width: 350px; 
-      height: 550px;
-      padding-left: 20px;
-      padding-top: 50px;
-    }
+.vanshombre{
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin: 30px;
+  font-size: 30px;
+}
 
-    /* vans hombre*/
-.banner2{
-    padding-top: 150px;
-    width: 100%;
-  }
+
+.containerhombre{
+ width: 100%;
+ background-color:  rgb(247, 247, 247);
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+
+
+
+.cajahombre img {
+   width: 350px;
+   height: 350px;
+   border-radius: 30px ;
   
-  .vanshombre{ text-align: center;
-  
-  }
-  
-  .imagen_1hombres{
-    min-width: 480px;
-    width: 300px; 
-  height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
-  }
-  
-  .imagen_2hombres{
-    min-width: 480px;
-    width: 300px; 
-  height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
-  }
-  .imagen_3hombres{
-    min-width: 480px;
-    width: 300px; 
-  height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
-  }
-  .imagen_4hombres{
-    min-width: 480px;
-    width: 300px; 
-  height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
-  }
-  .imagen_5hombres{
-    min-width: 480px;
-    width: 300px; 
-  height: 450px;
-  padding-left: 20px;
-  padding-top: 50px;
-  }
+   
+
+}
+
+.cajahombre {
+  margin: 15px;
+}
+
+.cajahombre p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
